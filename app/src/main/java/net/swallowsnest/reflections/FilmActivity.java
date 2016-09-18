@@ -17,6 +17,20 @@ public class FilmActivity extends AppCompatActivity {
         setContentView(R.layout.activity_film);
 
         //Find the view that shows the category
+        TextView home = (TextView)findViewById(R.id.home);
+
+        //Set the onClick listener for that view
+        home.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent homeIntent = new Intent(FilmActivity.this, MainActivity.class);
+
+                startActivity(homeIntent);
+            }
+        });
+
+
+        //Find the view that shows the category
         TextView dance = (TextView)findViewById(R.id.danceAct);
 
         //Set the onClick listener for that view

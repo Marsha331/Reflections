@@ -6,6 +6,16 @@
     tools:context="net.swallowsnest.reflections.DanceActivity"
     android:orientation="vertical">
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/home"
+        android:text="Home"
+        android:background="#145A32"
+        android:textColor="#ffffff"
+        android:layout_margin="4dp"
+        />
+
     <ImageView
         android:layout_width="200dp"
         android:layout_height="200dp"

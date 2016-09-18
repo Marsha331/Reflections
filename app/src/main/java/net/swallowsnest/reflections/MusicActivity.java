@@ -16,6 +16,19 @@ public class MusicActivity extends AppCompatActivity {
         setContentView(R.layout.activity_music);
 
         //Find the view that shows the category
+        TextView home = (TextView)findViewById(R.id.home);
+
+        //Set the onClick listener for that view
+        home.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent homeIntent = new Intent(MusicActivity.this, MainActivity.class);
+
+                startActivity(homeIntent);
+            }
+        });
+
+        //Find the view that shows the category
         TextView film = (TextView)findViewById(R.id.filmAct);
 
         //Set the onClick listener for that view

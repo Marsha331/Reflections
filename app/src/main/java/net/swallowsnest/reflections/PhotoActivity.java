@@ -1,4 +1,5 @@
 package net.swallowsnest.reflections;
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -14,6 +15,20 @@ public class PhotoActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_photo);
+
+        //Find the view that shows the category
+        TextView home = (TextView)findViewById(R.id.home);
+
+        //Set the onClick listener for that view
+        home.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent homeIntent = new Intent(PhotoActivity.this, MainActivity.class);
+
+                startActivity(homeIntent);
+            }
+        });
+
 
         //Find the view that shows the category
         TextView film = (TextView)findViewById(R.id.filmAct);

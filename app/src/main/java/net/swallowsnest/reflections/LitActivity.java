@@ -17,6 +17,20 @@ public class LitActivity extends AppCompatActivity {
         setContentView(R.layout.activity_lit);
 
         //Find the view that shows the category
+        TextView home = (TextView)findViewById(R.id.home);
+
+        //Set the onClick listener for that view
+        home.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent homeIntent = new Intent(LitActivity.this, MainActivity.class);
+
+                startActivity(homeIntent);
+            }
+        });
+
+
+        //Find the view that shows the category
         TextView film = (TextView)findViewById(R.id.filmAct);
 
         //Set the onClick listener for that view

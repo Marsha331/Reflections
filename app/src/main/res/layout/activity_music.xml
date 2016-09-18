@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="net.swallowsnest.reflections.MusicActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/music_pic"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:layout_marginBottom="20dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:padding="8dp"
+            android:text="@string/music_text"
+            />
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:layout_gravity="bottom">
+
+        <Button
+            android:id="@+id/filmAct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Film"
+            android:layout_weight="1"
+            android:background="#145A32"
+            android:textColor="#ffffff"
+            android:layout_margin="4dp"/>
+
+        <Button
+            android:id="@+id/litAct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lit"
+            android:layout_weight="1"
+            android:background="#145A32"
+            android:textColor="#ffffff"
+            android:layout_margin="4dp"
+            />
+
+        <Button
+            android:id="@+id/danceAct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dance"
+            android:layout_weight="1"
+            android:background="#145A32"
+            android:textColor="#ffffff"
+            android:layout_margin="4dp"/>
+
+        <Button
+            android:id="@+id/photoAct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Photo"
+            android:layout_weight="1"
+            android:background="#145A32"
+            android:textColor="#ffffff"
+            android:layout_margin="4dp"/>
+
+        <Button
+            android:id="@+id/visualAct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Visual"
+            android:layout_weight="1"
+            android:background="#145A32"
+            android:textColor="#ffffff"
+            android:layout_margin="4dp"/>
+    </LinearLayout>
+</LinearLayout>

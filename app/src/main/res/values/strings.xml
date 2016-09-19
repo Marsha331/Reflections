@@ -2,8 +2,9 @@
     <string name="app_name">Reflections</string>
     <string name="thanks">Thank you for participating in Reflections 2016 at Monrovia High!</string>
     <string name="reflections">Please turn in your submissions to
-    your counselor by October 25, 2016.\n If you have questions
-        email reflections@mhs.ptsa.groups.io \n or go to www.pta.org/reflections.</string>
+    your counselor by October 25, 2016. </string>
+    <string name="email">If you have questions send PTA an email. </string>
+    <string name="website_link">Go to the Reflections Website.</string>
     <string name="dance_text">DANCE CHOREOGRAPHY is the act of creating movement. The choreographer (student submitting entry) may
 be the performer or one of the performers, but the choreographer does not have to perform in the entry.\n
 2016-2017 Theme: What Is Your Story?
@@ -190,4 +191,48 @@ Packaging:\n
 Name (Example: PA.DANCE.PRI.SMITH.JOHN).\n
 • Submit artwork and student entry form according to your PTA’s instructions.\n
 State Specific Instructions: Students must follow state specific requirements and instructions.</string>
+    <string name="rules_text">By entering the “National PTA Reflections Program,” entrants accept and agree to be bound by these Official Rules as well as the
+entry requirements for their specific arts category and division. Any violation of these rules may, at PTA’s discretion, result in
+disqualification. All decisions of the judges regarding this program are final and binding in all respects. (The “PTA” referred to in
+these rules include all PTAs reviewing the entry).\n
+1. ELIGIBILITY. Students must participate through a local PTA/PTSA in good standing. Parent groups not affiliated with National
+PTA are not eligible to sponsor this program. It is the responsibility of the state and local PTA/PTSA to determine each student’s
+eligibility in the National PTA Reflections® Program. A student may develop an entry in or outside of school.\n
+2. ARTS CATEGORIES. There are six arts categories – dance choreography, film production, literature, music composition,
+photography and visual arts. Students may enter the National PTA Reflections Program in one or more arts categories. See each
+Arts Category Rules for additional entry requirements.\n
+3. GRADE DIVISIONS. Students may enter in the appropriate division for their grade (Primary: Preschool-Grade 2; Intermediate:
+Grades 3-5; Middle School: Grades 6-8; High School: Grades 9-12; Special Artist: All grades welcome). If students do not fall
+under specific grade divisions, National PTA suggests they be grouped by age (Primary: Up to age 7; Intermediate: Ages 8-10;
+Middle School: Ages 11-13; High School: Ages 14+; Special Artist: All ages welcome). See Special Artist Division Rules for entry
+requirements.\n
+4. HOW TO ENTER. Entrants must submit their artwork and student entry form to their local PTA/PTSA program according to local
+and state PTA procedures. Entrants must follow requirements and instructions specific to each arts category and division.
+Contact local PTA programs for deadlines and additional information.\n
+5. ENTRY REQUIREMENTS. (All participants must also follow Arts Category and Division Rules)\n
+• Only new pieces of artwork inspired by the current year’s theme may be submitted.\n
+• Each entry must be the original work of one student only. An adult may not alter the creative integrity of a student’s work.
+Because the program is designed to encourage and recognize each student’s individual creativity, help from an adult or
+collaboration with other students is not allowed except in the Special Artist Division. Only one student may be recognized as
+the award recipient for each entry. Other individuals may appear in or perform a student’s work, but the work itself must be
+the creative product of one student only. See the specific Arts Category Rules for details.\n
+• Each entry must contain a title and all entries must include an artist statement. The artist statement communicates what
+inspired the work, how it relates to the theme, and the content of the work. The statement must include at least one sentence,
+but may not exceed 100 words.\n
+• Use of copyrighted material is prohibited, except for recorded music in dance choreography and film production entries.
+Plagiarized entries will be disqualified. Use of PowerPoint presentations are prohibited because most graphic elements are
+copyrighted.\n
+6. FINALIST SELECTION AND NOTIFICATION. Entries are reviewed at local, regional, state and national levels. Each PTA determines
+its own judges for the program. Entries will be judged primarily on how well the student uses his or her artistic vision to portray
+the theme, originality and creativity. The National PTA Reflections® program makes no restrictions on content or subject matter
+in artwork. Under no condition may parents or students contact the judges to dispute the status of any entry.
+Awards are announced according to local and state procedures. National award recipients are notified via email by National PTA
+in May 1, 2017. The PTA in its sole discretion will select finalists for exhibition and provide awards/prizes. Visit
+PTA.org/Reflections for more information on Exhibitions and awards.\n
+7. OWNERSHIP AND LICENSE. Ownership in any submission shall remain the property of the entrant, but entry into this program
+constitutes entrant’s irrevocable permission and consent that PTA may display, copy, reproduce, enhance, print, sublicense,
+publish, distribute and create derivative works for PTA purposes. PTA is not responsible for lost or damaged entries. Submission
+of entry into the PTA Reflections program constitutes acceptance of all rules and conditions.\n
+8. PARTICIPATING ENTITIES. This program is administered by the National Parent Teacher Association (PTA) and PTA affiliates.\n
+9. STATE SPECIFIC INSTRUCTIONS. Contact your State PTA for additional requirements.</string>
     </resources>

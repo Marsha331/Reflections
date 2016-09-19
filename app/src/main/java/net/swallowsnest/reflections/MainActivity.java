@@ -1,10 +1,14 @@
 package net.swallowsnest.reflections;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.Html;
+import android.text.method.LinkMovementMethod;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -12,6 +16,31 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        //Find the view that shows the category
+        TextView rules = (TextView)findViewById(R.id.rulesAct);
+
+        //Set the onClick listener for that view
+        rules.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent rulesIntent = new Intent(MainActivity.this, RulesActivity.class);
+
+                startActivity(rulesIntent);
+            }
+        });
+
+        TextView textView =(TextView)findViewById(R.id.website);
+        textView.setClickable(true);
+        textView.setMovementMethod(LinkMovementMethod.getInstance());
+        String text = "<a href='http://www.pta.org/reflections'> Go to the Reflections Website </a>";
+        textView.setText(Html.fromHtml(text));
+
+        TextView sendEmail =(TextView)findViewById(R.id.email);
+        sendEmail.setClickable(true);
+        sendEmail.setMovementMethod(LinkMovementMethod.getInstance());
+        String email = "<a href='mailto:reflections@mhs.ptsa.groups.io'> Send Email to PTA. </a>";
+        sendEmail.setText(Html.fromHtml(email));
 
         //Find the view that shows the category
         TextView dance = (TextView)findViewById(R.id.danceAct);

@@ -3,66 +3,46 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="net.swallowsnest.reflections.MainActivity"
+    tools:context="net.swallowsnest.reflections.RulesActivity"
     android:orientation="vertical">
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/home"
+        android:text="Home"
         android:background="#145A32"
         android:textColor="#ffffff"
-        android:padding="4dp"
         android:layout_margin="4dp"
-        android:id="@+id/rulesAct"
-        android:text="General Rules"
-        android:layout_gravity="center"
-        />
-
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="300dp"
-        android:layout_gravity="center_horizontal"
-        android:src="@drawable/what_story"
         />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/thanks"
-        android:textAlignment="center"
-        android:textSize="22sp"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/reflections"
-        android:textAlignment="center"
-        android:textSize="18sp"
-        />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/email"
-        android:text="@string/email"
-        android:textSize="18sp"
+        android:text="Official Rules"
+        android:textSize="45sp"
         android:textAlignment="center"/>
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/website"
-        android:text="@string/website_link"
-        android:textAlignment="center"
-        android:textSize="18sp"/>
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="350dp"
+        android:layout_marginBottom="20dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:padding="8dp"
+            android:text="@string/rules_text"
+            />
+    </ScrollView>
 
     <TextView
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Click the button for your category"
+        android:text="Click the Specific Category Rules"
         android:textAlignment="center"
-        android:textSize="24sp"
-        android:fontFamily="bold"/>
+        android:textSize="25sp"
+        android:padding="4dp"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -79,6 +59,7 @@
             android:background="#145A32"
             android:textColor="#ffffff"
             android:layout_margin="4dp"/>
+
 
         <Button
             android:id="@+id/filmAct"

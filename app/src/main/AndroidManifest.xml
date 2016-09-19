@@ -35,6 +35,7 @@
         </activity>
         <activity
             android:name=".VisualActivity"></activity>
+        <activity android:name=".RulesActivity"></activity>
 
     </application>
 

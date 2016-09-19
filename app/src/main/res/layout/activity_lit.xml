@@ -43,16 +43,6 @@
         android:layout_gravity="bottom">
 
         <Button
-            android:id="@+id/filmAct"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Film"
-            android:layout_weight="1"
-            android:background="#145A32"
-            android:textColor="#ffffff"
-            android:layout_margin="4dp"/>
-
-        <Button
             android:id="@+id/danceAct"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -62,6 +52,16 @@
             android:textColor="#ffffff"
             android:layout_margin="4dp"
             />
+
+        <Button
+            android:id="@+id/filmAct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Film"
+            android:layout_weight="1"
+            android:background="#145A32"
+            android:textColor="#ffffff"
+            android:layout_margin="4dp"/>
 
         <Button
             android:id="@+id/musicAct"
